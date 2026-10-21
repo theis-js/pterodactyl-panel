@@ -2,6 +2,9 @@ name: Docker
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - release/v1.15.1
 
 jobs:
   push:
